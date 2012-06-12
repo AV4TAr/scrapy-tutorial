@@ -16,3 +16,15 @@ class DmozItem(Item):
     title = Field()
     link = Field()
     desc = Field()
+
+class CompanyItem(Item):
+    rank = Field()
+    address = Field()
+    phone = Field()
+    website = Field()
+    ww_revenue = Field()
+    us_revenue = Field()
+    ww_staff = Field()
+    us_staff = Field()
+    headquarters = Field()
+    year_established = Field()
