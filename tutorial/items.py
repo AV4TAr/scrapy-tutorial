@@ -11,3 +11,8 @@ class TutorialItem(Item):
     link = Field()
     description = Field()
     pass
+
+class DmozItem(Item):
+    title = Field()
+    link = Field()
+    desc = Field()
