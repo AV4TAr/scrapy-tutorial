@@ -5,8 +5,8 @@ from tutorial.items import DiItem
 
 
 class DmozSpider(BaseSpider):
-    name = "dmoz"
-    allowed_domains = ["dmoz.org"]
+    name = "di"
+    allowed_domains = ["di.net"]
     start_urls = [
         "http://www.di.net/almanac/firms/",
     ]
